@@ -52,7 +52,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -64,7 +64,7 @@ function Landing() {
                                     aria-label='Twitter'
                                 />
                             </a>
-                        )}
+                        )} */}
                         {socialsData.facebook && (
                             <a
                                 href={socialsData.facebook}
@@ -130,7 +130,7 @@ function Landing() {
                                         hover:bg-[#8B98A5] hover:text-[#15202B]
                                          hover:border-[#8B98A5] "
                                     >
-                                        Download CV
+                                        View CV
                                     </button>
                                 </a>
                             )}

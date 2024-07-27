@@ -5,8 +5,7 @@ import Image from 'next/image';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
 import {
-    FaFacebook, FaGithub, FaLinkedinIn, FaMediumM,
-    FaStackOverflow, FaTwitter
+    FaFacebook, FaGithub, FaLinkedinIn, 
 } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
@@ -82,7 +81,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Durgakanth'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -104,7 +103,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='durga.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -253,20 +252,7 @@ function Contacts() {
                         </div>
 
                         <div className={styles.socialmediaIcons}>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className="w-[45px] h-[45px] 
-                                    rounded-[50%] flex items-center 
-                                    justify-center text-xl transition
-                                     ease-in-out text-[#15202B] bg-[#8B98A5]
-                                      hover:bg-[#1D9BF0]"
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
+                            
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -294,35 +280,11 @@ function Contacts() {
                                 </a>
                             )}
 
-                            {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className="w-[45px] h-[45px] rounded-[50%] flex 
-                                    items-center justify-center text-xl transition 
-                                    ease-in-out text-[#15202B] bg-[#8B98A5] 
-                                    hover:bg-[#1D9BF0]"
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
+                           
 
 
 
-                            {socialsData.stackOverflow && (
-                                <a
-                                    href={socialsData.stackOverflow}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className="w-[45px] h-[45px] rounded-[50%] flex 
-                                    items-center justify-center text-xl transition 
-                                    ease-in-out text-[#15202B] bg-[#8B98A5] 
-                                    hover:bg-[#1D9BF0]"
-                                >
-                                    <FaStackOverflow aria-label='Stack Overflow' />
-                                </a>
-                            )}
+                           
                             {socialsData.facebook && (
                                 <a
                                     href={socialsData.facebook}

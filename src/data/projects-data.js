@@ -2,39 +2,40 @@ import eight from '../assets/svg/projects/eight.svg'
 import five from '../assets/svg/projects/five.svg'
 import four from '../assets/svg/projects/four.svg'
 import one from '../assets/svg/projects/one.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
+//import seven from '../assets/svg/projects/seven.svg'
+//import six from '../assets/svg/projects/six.svg'
 import three from '../assets/svg/projects/three.svg'
 import two from '../assets/svg/projects/two.svg'
+
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
+        projectName: 'Sorting Algorithm Visualizer',
+        projectDesc: 'It dynamically visualizes the sorting process, where array elements are represented and sorted in real-time with changing colors to depict different stages of sorting',
+        tags: ['React'],
         code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
+        demo: 'https://clementmihailescu.github.io/Sorting-Visualizer/',
+        image: 'https://i.ibb.co/KXg30wj/visu.png'
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
+        projectName: 'YouTube Transcript Summarizer',
+        projectDesc: 'This extension revolutionizes the way users interact with video content, offering a approach for key information',
+        tags: ['JSON','JQUERY'],
+        code: '',
+        demo: '',
+        image: 'https://i.ibb.co/7tDgrPz/poweredby.png'
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
+        projectName: 'Online Graocery Management',
+        projectDesc: 'The project demonstrated proficiency in full-stack web development,showcasing skills in frontend design and backend ',
+        tags: ['HTML', 'CSS', 'Js','Bootstrap'],
+        code: '',
+        demo: '',
+        image: 'https://i.ibb.co/dgPYqdx/g.png'
     },
     {
         id: 4,

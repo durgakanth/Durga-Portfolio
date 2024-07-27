@@ -22,7 +22,9 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     >
                         {name}
                     </h2>
-                    <Image src={image ? image : placeholder} alt={name} />
+                    <Image src={image ? image : placeholder} alt={name}  width={500} // Add width
+                        height={300} // Add height
+                        objectFit="contain" />
                     <div className={styles.projectShowcaseBtn}>
                         <a
                             href={demo}

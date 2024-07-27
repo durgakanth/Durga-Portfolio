@@ -14,12 +14,12 @@ import css from '../assets/svg/skills/css.svg'
 import dart from '../assets/svg/skills/dart.svg'
 import deno from '../assets/svg/skills/deno.svg'
 import django from '../assets/svg/skills/django.svg'
-import docker from '../assets/svg/skills/docker.svg'
-import firebase from '../assets/svg/skills/firebase.svg'
+//import docker from '../assets/svg/skills/docker.svg'
+//import firebase from '../assets/svg/skills/firebase.svg'
 import gcp from '../assets/svg/skills/gcp.svg'
 import gimp from '../assets/svg/skills/gimp.svg'
 import git from '../assets/svg/skills/git.svg'
-import go from '../assets/svg/skills/go.svg'
+//import go from '../assets/svg/skills/go.svg'
 import graphql from '../assets/svg/skills/graphql.svg'
 import html from '../assets/svg/skills/html.svg'
 import illustrator from '../assets/svg/skills/illustrator.svg'
@@ -28,7 +28,7 @@ import javascript from '../assets/svg/skills/javascript.svg'
 import julia from '../assets/svg/skills/julia.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
 import lightroom from '../assets/svg/skills/lightroom.svg'
-import materialui from '../assets/svg/skills/materialui.svg'
+//import materialui from '../assets/svg/skills/materialui.svg'
 import matlab from '../assets/svg/skills/matlab.svg'
 import memsql from '../assets/svg/skills/memsql.svg'
 import mongoDB from '../assets/svg/skills/mongoDB.svg'
@@ -40,7 +40,7 @@ import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
 import opencv from '../assets/svg/skills/opencv.svg'
 import photoshop from '../assets/svg/skills/photoshop.svg'
 import php from '../assets/svg/skills/php.svg'
-import postgresql from '../assets/svg/skills/postgresql.svg'
+//import postgresql from '../assets/svg/skills/postgresql.svg'
 import premierepro from '../assets/svg/skills/premierepro.svg'
 import python from '../assets/svg/skills/python.svg'
 import pytorch from '../assets/svg/skills/pytorch.svg'
@@ -50,7 +50,7 @@ import selenium from '../assets/svg/skills/selenium.svg'
 import strapi from '../assets/svg/skills/strapi.svg'
 import svelte from '../assets/svg/skills/svelte.svg'
 import swift from '../assets/svg/skills/swift.svg'
-import tailwind from '../assets/svg/skills/tailwind.svg'
+//import tailwind from '../assets/svg/skills/tailwind.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import typescript from '../assets/svg/skills/typescript.svg'
 import vitejs from '../assets/svg/skills/vitejs.svg'
@@ -81,12 +81,12 @@ export const skillsImage = (skill) => {
     switch (skillID) {
         case 'gcp':
             return gcp;
-        case 'html':
-            return html;
+       case 'html':
+           return html;
         case 'photoshop':
             return photoshop;
-        case 'docker':
-            return docker;
+       // case 'docker':
+         //   return docker;
         case 'illustrator':
             return illustrator;
         case 'adobe xd':
