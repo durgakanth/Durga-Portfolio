@@ -3,6 +3,7 @@ dotenv.config()
 
 const nextConfig = {
   reactStrictMode: true, // enabled react-strict mode
+  output:"export",
 
   images: {
     domains: [
