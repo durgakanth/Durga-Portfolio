@@ -15,7 +15,7 @@ function HomePage({ blogs }) {
       <Navbar />
       <Landing />
       <About />
-      <Experience />
+     // <Experience />
       <Skills />
       <Projects />
       <Education />
