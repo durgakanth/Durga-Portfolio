@@ -4,7 +4,7 @@ import education from '../../assets/lottie/education.json';
 import { ThemeContext } from '../../contexts/theme-context';
 import { educationData } from '../../data/education-data';
 import styles from '../../styles/education.module.css';
-import AnimationLottie from '../animation';
+//import AnimationLottie from '../animation';
 import EducationCard from './education-card';
 
 
@@ -15,9 +15,9 @@ function Education() {
         <div style={{ backgroundColor: theme.secondary }}>
             <Container className={styles.education} id="resume">
                 <div className={styles.educationBody}>
-                    <div className={styles.educationImage}>
-                        <AnimationLottie animationPath={education} />
-                    </div>
+                    // <div className={styles.educationImage}>
+                    //     <AnimationLottie animationPath={education} />
+                    // </div>
                     <div className={styles.educationDescription}>
                         <h1 style={{ color: theme.primary }}>Education</h1>
                         {educationData.map(edu => (
