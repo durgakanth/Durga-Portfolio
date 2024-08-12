@@ -6,7 +6,7 @@
 
 
 
-## View live demo [https://durga-portfolio-sii.vercel.app/#]().
+## View live demo [https://durga-portfolio-sii.vercel.app/#]
 
 ---
 
